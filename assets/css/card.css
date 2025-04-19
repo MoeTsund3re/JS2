@@ -1,0 +1,864 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Anonim, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .3s;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Anonim;
+    src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+header {
+    background-color: #222222;
+    height: 180px;
+    width: 100%;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header_buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header_buttons a img:hover {
+    transform: scale(1.05);
+}
+
+.nav_menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-right: 80px;
+}
+
+.nav_menu a {
+    font-size: 42px;
+    color: white;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+.nav_menu a:hover {
+    color: #ff415e;
+}
+
+.header_nav input {
+    display: none;
+}
+
+
+/* header */
+
+/* card */
+.catalog_card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2c2c2c;
+}
+
+.catalog_card_inner {
+    height: 657px;
+    background-color: #2c2c2c;
+    display: flex;
+    gap: 20px;
+}
+
+.card_left {
+    width: 650px;
+    height: 656px;
+}
+
+.bot {
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+}
+
+.card_right {
+    width: 629px;
+    height: 657px;
+}
+
+.title p {
+    font-size: 48px;
+    color: white;
+}
+
+.card_title_ {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+    display: none;
+}
+
+.comp {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-top: 55px;
+
+}
+
+.comp p {
+    font-size: 32px;
+    color: white;
+}
+
+.desk {
+    width: 629px;
+    height: 113px;
+    padding-top: 45px;
+
+}
+
+.desk p {
+    font-size: 32px;
+    color: #8A8A8A;
+
+}
+
+.card_btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+    background-color: #2c2c2c;
+}
+
+.card_add_btn {
+    width: 166px;
+    height: 86px;
+    background: none;
+    border: 1px solid #ff415e;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.card_add_btn p {
+    font-size: 32px;
+    color: white;
+
+}
+
+.card_add_cart {
+    width: 420px;
+    height: 86px;
+    background-color: #ff415e;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_add_cart a {
+    color: white;
+    font-size: 36px;
+    background-color: #ff415e;
+}
+
+/* card */
+/* offer */
+.offer {
+    background-color: #2c2c2c;
+    padding-top: 100px;
+}
+
+.offer_inner {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer_title {
+    font-size: 54px;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.catalog_card1_ {
+    width: 320px;
+    height: 390px;
+}
+
+.catalog_card2_ {
+    width: 320px;
+    height: 390px;
+}
+
+.catalog_card3_ {
+    width: 320px;
+    height: 390px;
+}
+
+.catalog_card4_ {
+    width: 320px;
+    height: 390px;
+}
+
+.card_top img {
+    width: 320px;
+    height: 250px;
+}
+
+.title_ {
+    font-size: 24px;
+    color: #ff415e;
+}
+
+.card_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_title {
+    font-size: 20px;
+    color: #8A8A8A;
+}
+
+.card_cost {
+    font-size: 32px;
+    color: white;
+    padding-top: 10px;
+}
+
+.card_cart_ {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.card_add_btn_ {
+    width: 104px;
+    height: 50px;
+    background: none;
+    border: 1px solid #ff415e;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.card_add_btn_ p {
+    font-size: 32px;
+    color: white;
+}
+
+.card_add_cart_ {
+    width: 196px;
+    height: 50px;
+    background-color: #ff415e;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_add_cart_ a {
+    color: white;
+    font-size: 24px;
+}
+
+/* offer */
+
+/* footer */
+.footer {
+    background-color: #222222;
+    height: 180px;
+    width: 100%;
+}
+
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.footer_buttons a img:hover {
+    transform: scale(1.05);
+}
+
+.nav_menu {
+    display: flex;
+    gap: 70px;
+}
+
+
+.nav_menu a:hover {
+    color: #ff415e;
+}
+
+.contact {
+    font-size: 40px;
+    color: #ffff;
+
+}
+
+.phone {
+    font-size: 32px;
+    color: #ffff;
+}
+
+.footer_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+
+/*  */
+/*  */
+/*  */
+@media screen and (max-width:800px) {
+
+    /* header */
+    header {
+        height: 140px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .nav_menu a {
+        font-size: 24px;
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+
+    .header_buttons a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header_buttons {
+        padding-left: 50px;
+    }
+
+    .nav_menu {
+        gap: 50px;
+        padding-top: 10px;
+    }
+
+    /* header */
+
+    /* card */
+    .top img {
+        width: 450px;
+        height: 300px;
+    }
+
+    .bot {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .bot img {
+        width: 140px;
+        height: 90px;
+    }
+
+    .catalog_card {
+        padding-bottom: 25px;
+    }
+
+    .catalog_card_inner {
+        gap: 10px;
+        height: 400px;
+    }
+
+    .card_right {
+        height: 400px;
+    }
+
+    .card_left {
+        height: 400px;
+    }
+
+    .title p {
+        font-size: 36px;
+    }
+
+
+    .comp {
+        row-gap: 10px;
+        padding-top: 24px;
+    }
+
+    .comp p {
+        font-size: 20px;
+    }
+
+    .desk p {
+        font-size: 15px;
+        width: 339px;
+        height: 35px;
+    }
+
+    .card_btn {
+        justify-content: start;
+        gap: 10px;
+        padding-top: 33px;
+    }
+
+    .card_add_btn {
+        width: 130px;
+        height: 60px;
+    }
+
+    .card_add_btn_ p {
+        font-size: 32px;
+    }
+
+    .card_add_cart {
+        width: 200px;
+        height: 60px;
+    }
+
+    .card_add_cart a {
+        font-size: 32px;
+    }
+
+    .offer_title {
+        font-size: 48px;
+        padding-bottom: 50px;
+    }
+
+    .offer_inner {
+        max-width: 800px;
+    }
+
+    .offer {
+        padding-top: 100px;
+    }
+
+    .card_top a img {
+        width: 250px;
+        height: 180px;
+    }
+
+    .catalog_card1_ {
+        width: 252px;
+        height: 299px;
+    }
+
+    .catalog_card2_ {
+        width: 252px;
+        height: 299px;
+    }
+
+    .catalog_card3_ {
+        width: 252px;
+        height: 299px;
+    }
+
+    .catalog_card4_ {
+        width: 252px;
+        height: 299px;
+        display: none;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .cost {
+        font-size: 24px;
+    }
+
+    .card_add_btn_ p {
+        font-size: 32px;
+    }
+
+    .card_add_btn_ {
+        width: 95px;
+        height: 40px;
+    }
+
+    .card_add_cart_ {
+        width: 252px;
+        height: 40px;
+    }
+
+    .card_add_cart_ a {
+        font-size: 20px;
+    }
+
+
+    /* card */
+
+    /* footer */
+    .footer {
+        width: 100%;
+        height: 129px;
+      }
+    
+      .footer_logo img {
+        width: 100px;
+        height: 90px;
+      }
+    
+      .footer_inner {
+        gap: 20px;
+      }
+      .footer_buttons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+      }
+      .contact {
+        font-size: 24px;
+      }
+    
+      .phone {
+        font-size: 20px;
+      }
+    
+      .nav_menu {
+        gap: 20px;
+      }
+    /* footer */
+}
+
+/* header */
+@media screen and (max-width: 320px) {
+
+    /* burger */
+    .header_nav input {
+        display: none;
+    }
+
+    [for=burger] {
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        z-index: 1111;
+    }
+
+    label span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #ff415e;
+        position: relative;
+        z-index: 1000;
+    }
+
+    label span::before,
+    label span::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #ff415e;
+    }
+
+    label span::before {
+        top: -8px;
+    }
+
+    label span::after {
+        top: 8px;
+    }
+
+    .nav_menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #222222;
+        padding-top: 60px;
+        transition: left 0.3s ease;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        gap: 0px;
+    }
+
+    .nav_menu a {
+        display: block;
+        color: #ff415e;
+        padding: 10px;
+        border-bottom: 1px solid #ff415e;
+        width: 100%;
+    }
+
+    .header_buttons {
+        padding-left: 0px;
+    }
+
+    .nav_menu a img {
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+
+    }
+
+    .nav_menu a::after {
+        display: block;
+    }
+
+    .nav_menu a:hover {
+        background: #e2e2e2;
+    }
+
+    #burger:checked~.nav_menu {
+        left: 0;
+    }
+
+    #burger:checked~label span {
+        background: transparent;
+    }
+
+    #burger:checked~label span::before {
+        transform: rotate(45deg);
+        top: 0;
+        display: block;
+    }
+
+    #burger:checked~label span::after {
+        transform: rotate(-45deg);
+        top: 0;
+        display: block;
+    }
+
+    /* card */
+
+
+    .top img {
+        width: 320px;
+        height: 250px;
+    }
+
+    .bot {
+        gap: 0px;
+        justify-content: space-between;
+        width: 320px;
+    }
+
+    .bot img {
+        width: 100px;
+        height: 70px;
+    }
+
+    .catalog_card {
+        padding-bottom: 425px;
+        width: 320px;
+    }
+
+    .catalog_card_inner {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 150px;
+        width: 320px;
+    }
+
+    .card_right {
+        width: 320px;
+        height: 190px;
+        padding: 10px;
+    }
+
+    .card_left {
+        height: 400px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_title_ {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        display: block;
+        color: white;
+    }
+
+    .title p {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .comp {
+        row-gap: 10px;
+        padding-top: 10px;
+    }
+
+    .comp p {
+        font-size: 20px;
+    }
+
+    .desk {
+        padding-top: 20px;
+        height: 90px;
+    }
+
+    .desk p {
+        font-size: 15px;
+        width: 339px;
+        height: 35px;
+        width: 300px;
+    }
+
+    .card_btn {
+        justify-content: start;
+        gap: 10px;
+        padding-top: 0px;
+    }
+
+    .card_add_btn {
+        width: 120px;
+        height: 50px;
+    }
+
+    .card_add_btn_ p {
+        font-size: 32px;
+    }
+
+    .card_add_cart {
+        width: 180px;
+        height: 50px;
+    }
+
+    .card_add_cart a {
+        font-size: 24px;
+    }
+
+
+
+    .offer_title {
+        font-size: 26px;
+        padding-bottom: 50px;
+    }
+
+    .offer_inner {
+        max-width: 320px;
+    }
+
+    .offer {
+        padding-top: 25px;
+    }
+
+    .card_top a img {
+        width: 140px;
+        height: 100px;
+    }
+
+    .catalog_card1_ {
+        width: 140px;
+        height: 176px;
+    }
+
+    .catalog_card2_ {
+        width: 140px;
+        height: 176px;
+    }
+
+    .catalog_card3_ {
+        width: 150px;
+        height: 176px;
+        display: none;
+    }
+
+    .catalog_card4_ {
+        width: 150px;
+        height: 176px;
+        display: none;
+    }
+
+    .title_ {
+        font-size: 14px;
+    }
+
+    .sub_title {
+        font-size: 12px;
+    }
+
+    .card_cost {
+        font-size: 24px;
+    }
+
+    .card_add_btn_ p {
+        font-size: 24px;
+    }
+
+    .card_add_btn_ {
+        width: 63px;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .card_add_cart_ {
+        width: 140px;
+        height: 35px;
+    }
+
+    .card_add_cart_ a {
+        font-size: 14px;
+    }
+    /* card */
+
+
+    /* footer */
+    .footer {
+        width: 100%;
+        height: 80px;
+    }
+
+    .footer_logo img {
+        width: 57px;
+        height: 51px;
+    }
+
+    .contact {
+        font-size: 12px;
+
+    }
+
+    .phone {
+        font-size: 10px;
+    }
+}
+
+/* burger */

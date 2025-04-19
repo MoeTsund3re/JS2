@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Anonim, sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: 0.3s;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Anonim;
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+header {
+  background-color: #222222;
+  height: 180px;
+  width: 100%;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header_buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_buttons a img:hover {
+  transform: scale(1.05);
+}
+
+.nav_menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-right: 80px;
+}
+
+.nav_menu a {
+  font-size: 42px;
+  color: white;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.nav_menu a:hover {
+  color: #ff415e;
+}
+
+.header_nav input {
+  display: none;
+}
+
+/* header */
+/* contact */
+
+.contact_page {
+  background-color: #2c2c2c;
+  width: 100%;
+  height: 1000px;
+  padding-top: 50px;
+}
+.contact_title {
+  font-size: 64px;
+  text-align: center;
+  padding-top: 100px;
+  color: #ff415e;
+}
+.contact_inner {
+  width: 1200px;
+  height: 600px;
+  background-color: #222222;
+  margin-top: 50px;
+}
+.contact_card {
+  padding-top: 100px;
+}
+
+.card_contact {
+  padding: 15px 0px;
+}
+
+.card_top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 40px;
+  row-gap: 100px;
+}
+.card_element {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.element_right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.working_time {
+  font-size: 28px;
+  color: #8a8a8a;
+  width: 380px;
+}
+.time {
+  font-size: 32px;
+  color: white;
+  width: 380px;
+}
+.for_mess {
+  font-size: 28px;
+  color: #8a8a8a;
+  width: 380px;
+}
+.mail {
+  font-size: 32px;
+  color: #ff415e;
+  width: 380px;
+}
+.call {
+  font-size: 28px;
+  color: #8a8a8a;
+  width: 380px;
+}
+.phone_ {
+  font-size: 32px;
+  color: #ffffff;
+  width: 380px;
+}
+.our_address {
+  font-size: 28px;
+  color: #8a8a8a;
+  width: 380px;
+}
+.address {
+  font-size: 24px;
+  color: #ff415e;
+  width: 380px;
+}
+.card_bot {
+  padding-top: 92px;
+  display: flex;
+  justify-content: center;
+}
+/* contact */
+
+/* footer */
+.footer {
+  background-color: #222222;
+  height: 180px;
+  width: 100%;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.footer_buttons a img:hover {
+  transform: scale(1.05);
+}
+
+.nav_menu {
+  display: flex;
+  gap: 70px;
+}
+
+.nav_menu a:hover {
+  color: #ff415e;
+}
+
+.contact {
+  font-size: 40px;
+  color: #ffff;
+}
+
+.phone {
+  font-size: 32px;
+  color: #ffff;
+}
+
+.footer_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer */
+
+@media screen and (max-width: 800px) {
+  /* header */
+  header {
+    height: 140px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 90px;
+  }
+
+  .nav_menu a {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+
+  .header_buttons a img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header_buttons {
+    padding-left: 50px;
+  }
+
+  .nav_menu {
+    gap: 50px;
+    padding-top: 10px;
+  }
+
+  /* header */
+
+  /* contact */
+
+  .contact_page {
+    height: 850px;
+  }
+  .contact_title {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .contact_inner {
+    width: 800px;
+    height: 500px;
+  }
+  .element_left img {
+    width: 70px;
+    height: 70px;
+  }
+  .card_top{
+    padding: 0px 20px;
+  }
+  .working_time {
+    font-size: 20px;
+    color: #8a8a8a;
+    width: 250px;
+  }
+  .time {
+    font-size: 24px;
+    color: white;
+    width: 250px;
+  }
+  .for_mess {
+    font-size: 20px;
+    color: #8a8a8a;
+    width: 250px;
+  }
+  .mail {
+    font-size: 24px;
+    color: #ff415e;
+    width: 250px;
+  }
+  .call {
+    font-size: 20px;
+    color: #8a8a8a;
+    width: 250px;
+  }
+  .phone_ {
+    font-size: 24px;
+    color: #ffffff;
+    width: 250px;
+  }
+  .our_address {
+    font-size: 20px;
+    color: #8a8a8a;
+    width: 250px;
+  }
+  .address {
+    font-size: 16px;
+    color: #ff415e;
+    width: 250px;
+  }
+  .card_bot {
+    padding-top: 70px;
+  }
+  .card_bot img{
+    width: 190px;
+    height: 50px;
+  }
+
+  /* contact */
+
+  /* footer */
+  .footer {
+    width: 1000px;
+    height: 129px;
+  }
+
+  .footer_logo img {
+    width: 100px;
+    height: 90px;
+  }
+
+  .footer_inner {
+    gap: 20px;
+  }
+
+  .contact {
+    font-size: 24px;
+  }
+
+  .phone {
+    font-size: 20px;
+  }
+
+  .nav_menu {
+    gap: 20px;
+  }
+
+  /* footer */
+}
+
+@media screen and (max-width: 320px) {
+  /* burger */
+  .header_nav input {
+    display: none;
+  }
+
+  [for="burger"] {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1111;
+  }
+
+  label span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #ff415e;
+    position: relative;
+    z-index: 1000;
+  }
+
+  label span::before,
+  label span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #ff415e;
+  }
+
+  label span::before {
+    top: -8px;
+  }
+
+  label span::after {
+    top: 8px;
+  }
+
+  .nav_menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    gap: 0px;
+  }
+
+  .nav_menu a {
+    display: block;
+    color: #ff415e;
+    padding: 10px;
+    border-bottom: 1px solid #ff415e;
+    width: 100%;
+  }
+
+  .header_buttons {
+    padding-left: 0px;
+  }
+
+  .nav_menu a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .nav_menu a::after {
+    display: block;
+  }
+
+  .nav_menu a:hover {
+    background: #e2e2e2;
+  }
+
+  #burger:checked ~ .nav_menu {
+    left: 0;
+  }
+
+  #burger:checked ~ label span {
+    background: transparent;
+  }
+
+  #burger:checked ~ label span::before {
+    transform: rotate(45deg);
+    top: 0;
+    display: block;
+  }
+
+  #burger:checked ~ label span::after {
+    transform: rotate(-45deg);
+    top: 0;
+    display: block;
+  }
+/* burger */
+
+
+/* contact */
+.contact_page {
+    height: 550px;
+  }
+  .contact_title {
+    font-size: 24px;
+    padding-top: 25px;
+  }
+  .contact_inner {
+    width: 320px;
+    height: 366px;
+  }
+  .contact_card{
+    padding-top: 20px;
+  }
+  .element_left img {
+    width: 40px;
+    height: 40px;
+  }
+  .card_top{
+    padding: 0px 5px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 25px;
+    padding-left: 50px;
+  }
+  .card_element{
+    gap: 10px;
+  }
+  .working_time {
+    font-size: 16px;
+    color: #8a8a8a;
+    width: 120px;
+  }
+  .time {
+    font-size: 12px;
+    color: white;
+    width: 120px;
+  }
+  .for_mess {
+    font-size: 16px;
+    color: #8a8a8a;
+    width: 150px;
+  }
+  .mail {
+    font-size: 12px;
+    color: #ff415e;
+    width: 150px;
+  }
+  .call {
+    font-size: 16px;
+    color: #8a8a8a;
+    width: 200px;
+  }
+  .phone_ {
+    font-size: 12px;
+    color: #ffffff;
+    width: 150px;
+  }
+  .our_address {
+    font-size: 16px;
+    color: #8a8a8a;
+    width: 220px;
+  }
+  .address {
+    font-size: 10px;
+    color: #ff415e;
+    width: 160px;
+  }
+  .card_bot {
+    padding-top: 40px;
+  }
+  .card_bot img{
+    width: 100px;
+    height: 30px;
+  }
+
+  /* contact */
+
+
+  /* footer */
+  .footer {
+    width: 100%;
+    height: 80px;
+  }
+
+  .footer_logo img {
+    width: 57px;
+    height: 51px;
+  }
+
+  .contact {
+    font-size: 12px;
+  }
+
+  .phone {
+    font-size: 10px;
+  }
+}
